@@ -62,6 +62,9 @@ console.log(addedSalary);
 // Select a random employee
 const getRandomEmployee = function(employeesArray) {
   // TODO: Select and display a random employee
+  const index = Math.floor(Math.random() * employeesArray.length);
+  const randomEmployee = employeesArray[index];
+  console.log(`Congrats you are the winner ${randomEmployee.firstName}`);
 }
 
 /*
