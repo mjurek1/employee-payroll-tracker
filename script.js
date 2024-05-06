@@ -26,11 +26,11 @@ while (addAnother) {
       lastName: lastName,
       salary: parseFloat(salary),
     };
-  console.log(firstName);
-  console.log(lastName);
-  console.log(salary);
-  console.log(person);
-  console.log(typeof(salary));
+  // console.log(firstName); // console log to see if things are working correctly
+  // console.log(lastName); console log to see if things are working correctly
+  // console.log(salary);console log to see if things are working correctly
+  // console.log(person); console log to see if things are working correctly
+  // console.log(typeof(salary)); console log to see if things are working correctly
   employees.push(person);
 
 // salary = (isNaN(salary) || salary === null) ? 0 : Number(salary);
@@ -50,13 +50,13 @@ const displayAverageSalary = function(employeesArray) {
   for (let i = 0; i < employeesArray.length; i++) {
     addedSalary += employeesArray[i].salary
   };
-console.log(addedSalary);
+// console.log(addedSalary); console log to see if things are working correctly
 
   const averageSalary = addedSalary / employeesArray.length;
   const current = employeesArray.length;
   console.log(`The average employee salary between our ${current} employees is
    ${averageSalary.toLocaleString("en-US", {style: "currency", currency: "USD"})}`);
-  console.log(addedSalary);
+  // console.log(addedSalary); console log to see if things are working correctly
 }
 
 // Select a random employee
