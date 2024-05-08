@@ -1,7 +1,5 @@
 # Employee Payroll Tracker
 
-Foobar is a Python library for dealing with word pluralization.
-
 ## Description
 The employee payroll tracker is an application that enables a payroll manager to view and manage employee payroll data. This app runs in the browser and features dynamically updated HTML and CSS powered by JavaScript. It has a clean and polished, responsive user interface that adapts to multiple screen sizes.
 
